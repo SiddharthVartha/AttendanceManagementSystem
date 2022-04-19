@@ -1,0 +1,26 @@
+
+.TeacherTable{
+    height: 100vh;
+    margin-top: 10vh;
+    overflow-y: auto;
+}
+.heading{
+    color: #06c806;
+    background-color: black;
+    width: max-content;
+    margin-top: 10vh;
+}
+.container{
+    margin-top: 20vh;
+}
+.submit{
+    border-radius: 20px;
+	background-color: black;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}

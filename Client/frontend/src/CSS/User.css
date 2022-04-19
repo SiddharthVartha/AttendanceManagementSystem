@@ -1,0 +1,22 @@
+table{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    text-align: center;
+    width:500px;
+    opacity: 0.9;
+    height: 400px;
+}
+td,th  {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.name{
+    color: #06c806;
+    background-color: black;
+}
+.piechart{
+    margin-top: -102px;
+    display: block;
+    justify-content: center;
+}

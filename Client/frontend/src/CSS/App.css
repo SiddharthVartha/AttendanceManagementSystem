@@ -1,0 +1,10 @@
+body{
+    overflow:hidden;
+    background-image: url("E:\AttendanceManagementSystem\Client\frontend\Assset\VCET.jpg");
+	display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
