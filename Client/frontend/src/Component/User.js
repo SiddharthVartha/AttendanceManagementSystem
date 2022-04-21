@@ -1,6 +1,6 @@
 import "../CSS/User.css"
 import { useState } from 'react';
-import DoughnutChart from './DoughnutChart';
+import DisplayPieChart from './DisplayPieChart';
 const User =(props) => {
     let _id=props._id;
     const [stdData,setstdData]=useState([]);
@@ -115,7 +115,7 @@ const User =(props) => {
             </div>
             <div className="piechart">
             <h1 className="name">Virtual Representation</h1>
-                {(stdData!=="undefined" && dc!=="undefined" && hmi!=="undefined" && pm!=="undefined" && nlp!=="undefined")?<DoughnutChart studentData={stdData}/>:false}
+                {(stdData!=="undefined" && dc!=="undefined" && hmi!=="undefined" && pm!=="undefined" && nlp!=="undefined")?<DisplayPieChart studentData={stdData} absent={(hmi.HMI+dc.DC+pm.PM+nlp.NLP)-(stdData.DC+stdData.NLP+stdData.HMI+stdData.PM)}/>:false}
                 
             </div>
         </div>
